@@ -1,0 +1,36 @@
+# === Python Cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# === Virtual Environments ===
+venv/
+.env
+.env.*
+
+# === Editor / OS Junk ===
+.DS_Store
+*.bak
+*.tmp
+
+
+# === Vertex AI ADK Artifacts ===
+.vertexai/
+__adk_cache__/
+*.vertexai
+
+# === Logging / Runtime / Scratch Files ===
+*.log
+*.pid
+*.lock
+logs/
+
+# === Deployment / API UI (if added) ===
+*.sqlite3
+*.db
+
+# === Optional: Notebooks, Docker, Streamlit ===
+notebooks/__pycache__/
+docker/__pycache__/
+streamlit/__pycache__/

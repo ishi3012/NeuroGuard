@@ -1,0 +1,13 @@
+name: neuroguard_agent
+version: v1
+description: >
+  NeuroGuard is a hybrid hallucination mitigation agent using RAG, CoT, NLI, and fallback abstention,
+  orchestrated via Vertex AI Agentic Development Kit (ADK).
+
+skills:
+  - rag_skill
+  - cot_skill
+  - nli_skill
+  - fallback_skill
+
+entry_point: neuroguard_agent/main.py
